@@ -1,4 +1,5 @@
 import "./nav.css"
+import { FaIconName } from "react-icons/fa";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
 
