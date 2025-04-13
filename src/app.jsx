@@ -8,38 +8,14 @@ import Service from "./Components/Services/Service"
 import Contact from "./Components/Contacts/Contact"
 
 const App = () => {
-    const router = createBrowserRouter([
-        {
-            path: "/",
-            element: <Home />
-        },
-        {
-            path: "/about",
-            element: <About  />
-        },
-        {
-            path: "/work",
-            element: <Work />
-        },
-        {
-            path: "/service",
-            element: <Service />
-        },
-        {
-            path: "/contact",
-            element: <Contact/>
-        },
-
-    ])
   return (
     <>
     <Nav />
-    <RouterProvider router ={router}/>
-    {/* <Home />
+    <Home />
     <About />
     <Work />
     <Service />
-    <Contact /> */}
+    <Contact />
     </>
   )
 }

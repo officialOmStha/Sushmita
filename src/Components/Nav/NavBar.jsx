@@ -14,11 +14,11 @@ export default function Nav() {
                     <label htmlFor="sidebar-active" className="close-sidebar-button">
                         &times;
                     </label>
-                    <a href="/">Home</a>
-                    <a href="/about">About Us</a>
-                    <a href="/work">Works</a>
-                    <a href="/service">Services</a>
-                    <a href="/contact">Contact</a>
+                    <a href="#home">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#work">Works</a>
+                    <a href="#service">Services</a>
+                    <a href="#contact">Contact</a>
                 </div>
             </nav>
         </header>
