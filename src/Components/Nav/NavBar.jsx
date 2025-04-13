@@ -1,7 +1,4 @@
 import "./nav.css"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faXmark } from '@fortawesome/free-solid-svg-icons';
-
 
 export default function Nav() {
     return (
@@ -10,12 +7,12 @@ export default function Nav() {
             <nav>
                 <input type="checkbox" id="sidebar-active" />
                 <label htmlFor="sidebar-active" className="open-sidebar-button">
-                    <FontAwesomeIcon className="icc" icon={faBars} />
+                    &#9776;
                 </label>
                 <label id="overlay" htmlFor="sidebar-active"></label>
                 <div className="links-container">
                     <label htmlFor="sidebar-active" className="close-sidebar-button">
-                        <FontAwesomeIcon className="icc" icon={faXmark} />
+                        &times;
                     </label>
                     <a href="/">Home</a>
                     <a href="/about">About Us</a>
