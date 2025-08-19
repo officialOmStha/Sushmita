@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="w-full p-4 md:px-20 md:py-10 bg-gray-100 text-center">
       <div className="flex flex-col items-center space-y-4">
         {/* Brand Name */}
-        <h2 className="text-xl font-semibold">✨ Glam by [Your Name] ✨</h2>
+        <h2 className="text-xl font-semibold">✨ Glam by Sushmita ✨</h2>
         <p className="text-sm text-gray-600">Enhancing beauty, one look at a time.</p>
 
         {/* Social Links */}

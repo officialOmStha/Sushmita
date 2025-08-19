@@ -2,6 +2,7 @@ import Home from "./components/home"
 import About from "./components/About"
 import Services from "./components/Services"
 import Footer from "./components/Footer"
+import Why from "./components/Why"
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Home />
       <About />
       <Services />
+      <Why />
       <Footer />
     </>
   )
