@@ -11,7 +11,7 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex space-x-6 text-lg">
           <a 
-            href="https://www.instagram.com/yourusername" 
+            href="https://www.instagram.com/sus_me_ta/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-pink-500"
@@ -19,7 +19,7 @@ const Footer = () => {
             📸 Instagram
           </a>
           <a 
-            href="https://www.facebook.com/yourusername" 
+            href="https://www.facebook.com/susmita.shrestha.14" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-blue-600"
@@ -30,7 +30,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <p className="text-xs text-gray-500 mt-4">
-          © {new Date().getFullYear()} Glam by [Your Name]. All rights reserved.
+          © {new Date().getFullYear()} Glam by Sushmita. All rights reserved.
         </p>
       </div>
     </footer>
