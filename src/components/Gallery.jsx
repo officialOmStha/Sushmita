@@ -11,6 +11,14 @@ const media = [
     src: "https://i.pinimg.com/originals/e0/ec/7f/e0ec7fd0dc651e0c4701a619d9827ca8.jpg",
     alt: "Wedding Look",
   },
+  {
+    src: "https://i.pinimg.com/736x/ca/27/6a/ca276a8984f445731beef2a57a59970c.jpg",
+    alt: "Glam Look",
+  },
+  {
+    src: "https://i.pinimg.com/originals/e0/ec/7f/e0ec7fd0dc651e0c4701a619d9827ca8.jpg",
+    alt: "Wedding Look",
+  },
 ];
 
 export default function Gallery() {
