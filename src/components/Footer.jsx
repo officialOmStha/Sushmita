@@ -1,9 +1,11 @@
 import React from 'react'
 import InstaIcon from './ui/InstaIcon'
 import Fbico from './ui/Fbico'
+import { FadeInContainer } from './FadeInContainer'
 
 const Footer = () => {
   return (
+    <FadeInContainer>
     <footer className="w-full p-4 md:px-20 md:py-10 bg-gray-100 text-center">
       <div className="flex flex-col items-center space-y-4">
         {/* Brand Name */}
@@ -36,6 +38,7 @@ const Footer = () => {
         </p>
       </div>
     </footer>
+    </FadeInContainer>
   )
 }
 

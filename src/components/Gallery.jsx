@@ -1,3 +1,5 @@
+import { FadeInContainer } from "./FadeInContainer";
+
 const media = [
   {
     src: "https://i.pinimg.com/736x/69/21/53/692153373dbfa9ba72d5df49cffce338.jpg",
@@ -23,6 +25,8 @@ const media = [
 
 export default function Gallery() {
   return (
+    <>
+    <FadeInContainer>
     <section className="p-6 max-w-6xl mx-auto">
       <h2 className="text-3xl font-bold text-center mb-8">Gallery</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
@@ -41,5 +45,7 @@ export default function Gallery() {
         ))}
       </div>
     </section>
+    </FadeInContainer>
+    </>
   );
 }

@@ -1,8 +1,10 @@
 import React from 'react'
+import { FadeInContainer } from './FadeInContainer'
 
 const Home = () => {
     return (
-        <>
+      <>
+      <FadeInContainer>
       <section
         className="p-4 md:p-20 w-full min-h-[100vh] flex flex-col justify-center items-center text-center bg-gradient-to-r from-pink-100 via-white to-purple-100"
       >
@@ -33,6 +35,7 @@ const Home = () => {
           </a>
         </div>
       </section>
+      </FadeInContainer>
     </>
     )
 }
