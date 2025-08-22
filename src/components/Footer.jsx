@@ -1,4 +1,6 @@
 import React from 'react'
+import InstaIcon from './ui/InstaIcon'
+import Fbico from './ui/Fbico'
 
 const Footer = () => {
   return (
@@ -11,20 +13,20 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex space-x-6 text-lg">
           <a 
-            href="https://www.instagram.com/sus_me_ta/" 
+            href="https://www.instagram.com/makeup_with_sush/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-pink-500"
           >
-            📸 Instagram
+            <InstaIcon />
           </a>
           <a 
-            href="https://www.facebook.com/susmita.shrestha.14" 
+            href="https://www.facebook.com/susmita.shrestha.14"
             target="_blank" 
             rel="noopener noreferrer" 
             className="hover:text-blue-600"
           >
-            👍 Facebook
+            <Fbico />
           </a>
         </div>
 
