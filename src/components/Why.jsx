@@ -5,7 +5,9 @@ const Why = () => {
   return (
     <>
     <FadeInContainer>
-      <section className="p-4 md:p-20 w-full min-h-[100vh] flex flex-col justify-center items-center bg-gradient-to-r from-purple-50 via-white to-pink-50">
+      <section 
+      id='why'
+      className="p-4 md:p-20 w-full min-h-[100vh] flex flex-col justify-center items-center bg-gradient-to-r from-purple-50 via-white to-pink-50">
         {/* Heading */}
         <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-10 text-center">
           Why <span className="text-pink-500">Choose Me?</span>

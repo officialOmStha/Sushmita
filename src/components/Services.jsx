@@ -4,7 +4,9 @@ import { FadeInContainer } from './FadeInContainer'
 const Services = () => {
   return (
     <FadeInContainer>
-    <section className="p-4 md:p-20 w-full min-h-[100vh] flex flex-col justify-center items-center bg-gradient-to-r from-pink-50 via-white to-purple-50">
+    <section 
+    id='services'
+    className="p-4 md:p-20 w-full min-h-[100vh] flex flex-col justify-center items-center bg-gradient-to-r from-pink-50 via-white to-purple-50">
       {/* Heading */}
       <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mb-10 text-center">
         Our <span className="text-pink-500">Services</span>
